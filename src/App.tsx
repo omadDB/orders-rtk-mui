@@ -22,7 +22,7 @@ function App() {
               </ProtectedRoute>
             }
           >
-            <Route index path="/" element={<Navigate replace to="/" />} />
+            <Route index element={<Home />} />
             <Route path="/" element={<Home />} />
           </Route>
           <Route path="login" element={<Login />} />

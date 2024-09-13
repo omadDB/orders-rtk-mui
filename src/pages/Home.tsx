@@ -1,5 +1,12 @@
+import Table from "../components/Table"
+
 function Home() {
-  return <div>Home page!</div>
+  console.log(1 + 1)
+  return (
+    <div className="container">
+      <Table />
+    </div>
+  )
 }
 
 export default Home
